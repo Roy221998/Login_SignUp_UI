@@ -13,5 +13,5 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-  ]
+, "src/context/AuthContext.js", "src/screens/SignUp.js", "src/screens/SignIn.js", "src/screens/Welcome.js", "src/screens/LogoPage.js", "src/screens/Home.js", "app/index.js"  ]
 }
