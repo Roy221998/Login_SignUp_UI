@@ -4,12 +4,12 @@ import { AuthContext } from "../context/AuthContext";
 
 const Home = ({ navigation }) => {
   const { userInfo } = useContext(AuthContext);
-  console.log(userInfo?.data?.name);
+  // console.log(userInfo?.data?.name);
   return (
     <View>
       <Image source={require("../assets/logo.png")} />
 
-      <Text style={{ fontWeight: "bold", fontSize: 16, marginBottom: 25,marginLeft:10 }}>
+      <Text style={{ fontWeight: "bold", fontSize: 26, marginBottom: 25,textAlign:"center"}}>
         Home  {userInfo?.data?.name}
       </Text>
       <Pressable

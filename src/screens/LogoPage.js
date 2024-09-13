@@ -5,7 +5,7 @@ const LogoPage = ({ navigation }) => {
   useEffect(()=>{
     setTimeout(() => {
         navigation.replace("Welcome")
-    }, 10000);
+    }, 2000);
   },[]);
   return (
     <View style={styles.main}>

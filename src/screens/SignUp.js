@@ -97,7 +97,7 @@ const SignUp = ({ navigation }) => {
           <Pressable
             onPress={() => {
               register(name, phone, password);
-              navigation.navigate("Home");
+              isChecked && navigation.navigate("Home");
             }}
             style={styles.button}
           >
@@ -229,10 +229,12 @@ const styles = StyleSheet.create({
   },
   bottomImage: {
     width: "100%",
+    height: 150,
     resizeMode: "cover",
     zIndex: 1,
     position: "absolute",
-    bottom: "0",
+    bottom: 20,
+    right: 20,
   },
   bottomText: {
     textAlign: "center",

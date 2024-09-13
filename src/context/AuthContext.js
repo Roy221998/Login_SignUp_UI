@@ -16,7 +16,7 @@ export const AuthProvider = ({ children }) => {
       .then((res) => {
         let userInfo = res.data;
         setUserInfo(userInfo);
-        console.log(userInfo);
+        // console.log(userInfo);
       })
       .catch((e) => {
         console.log(e);
@@ -31,7 +31,7 @@ export const AuthProvider = ({ children }) => {
       .then((res) => {
         let userInfo = res.data;
         setUserInfo(userInfo);
-        console.log(userInfo);
+        // console.log(userInfo);
       })
       .catch((e) => {
         console.log(e);
